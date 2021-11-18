@@ -90,6 +90,72 @@ input::placeholder {
     box-shadow: 5px 3px 3px hsl(0, 67%, 90%);
     transform: scale(1.2);
 }
+
+
+@media (min-width:1024px) {
+    .man-wapper{
+        display: inline-block;
+        width: 100vw;
+        height: 100vh;
+       
+    }
+
+    header {
+        display: inline-flex;
+        height: 60px;
+        width: 40%;
+        padding: 50px;
+        margin-bottom: 170px;
+    }
+
+    header img{
+        height: 100%;
+        width: 50%; 
+    }
+    
+    .logo {
+        padding: 12px 99px;
+        margin: auto;
+    }  
+    .imagem {
+        height: 100%;
+        width: auto;
+        margin-bottom: 50px;
+        float: right;
+    }
+    .contener {
+        display: flex;
+        text-align: left;
+        height: 50%;
+        width: 30%;
+        padding: 19px 49px;
+        margin: auto;
+    }
+    .text h1 {
+        letter-spacing: 20px;
+        font-size: 65px;
+        line-height: 70px;
+    }
+    p{
+        font-size: 17px;
+    }
+    .botao {
+        width:400px;
+        text-align: left;
+        margin: auto;
+        
+    }
+    .botao input{
+        display: inline-block;
+        outline: none;
+        border: 0;
+        width:220px;
+        padding: 15px ;
+        border-radius: 30px;
+        
+    }
+}
+
 .attribution{
     display: none;
 }
